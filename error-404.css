@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Catamaran', sans-serif;
+  height: 100vh;
+  background-image: url(./rocket.png);
+}
+
+#container{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  bottom:10%;
+  right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #151729;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+  background: linear-gradient(45deg,#8500ff, #5acaff);
+  border-radius: 10px;
+}
+
+.content{
+  max-width: 600px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.description{
+  margin-top: 80px;
+}
+
+h2{
+font-size: 18vw;
+color: white;
+line-height: 10px;
+}
+
+button{
+  position:relative;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color:#111111;
+  background: white;
+  font-weight: 700;
+  padding: 20px 40px;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 0;
+  border-radius: 10px;
+  border:none;
+}
+
+#container:hover{
+  color: antiquewhite;
+  font-weight: 700;
+  background-image:url(./broken.jpg);
+}
+
+button:hover{
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(135,135,203,1) 41%, rgba(0,0,0,1) 100%);
+  animation: glowing 20s linear infinite;
+  color: antiquewhite;
+  text-transform: uppercase;
+  padding: 40px 80px;
+  font-size:40px ;
+  font-weight: 700;
+  }
+
+p{
+  color: white;
+  font-size: 24px;
+}
+
+p:hover{
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(135,135,203,1) 41%, rgba(0,0,0,1) 100%);
+  padding: 20px 40px;
+}
+
+a{
+  position: relative;
+  display: inline-block;
+  padding:  15px 55px;
+  background: #ff0562;
+  color: white;
+  text-decoration: none;
+  margin-top: 25px;
+  border-radius: 25px;
+  border-bottom: 8px solid #d00d56;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+a:active{
+  top:10px;
+  background-color:#d00d56;
+}
+
+.doll{
+  width: 29%;
+  border-radius: 100%;
+}
+
